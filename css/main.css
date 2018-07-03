@@ -1,0 +1,160 @@
+:root {
+  --ci-primary-main: #3ab53a;
+  --ci-primary-shade: #005620;
+  --ci-primary-dark: #004c23;
+  --ci-secondary-main: #e3af48;
+
+  --main-color: #000;
+  --main-text: #000;
+  --secondary-text: #888;
+  --main-background: #fff;
+  --main-darker: #000;
+  --secondary-main: #000;
+  --header-background: #222;
+  --header-text: #aaa;
+  --header-text-highlight: #eee;
+  --footer-background: #222;
+  --footer-text: #888;
+  --footer-text-highlight: #aaa;
+  --box-background: #fcfcfc;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--main-background);
+  background-image: url(../assets/handmadepaper.png);
+  background-repeat: repeat;
+  color: var(--main-text);
+  font-family: "PT Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+pre,
+code {
+  font-family: "PT Mono", "Courier New", Courier, monospace;
+}
+
+h1,
+h2 {
+  font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Sans Narrow", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: var(--header-background);
+  color: var(--header-text);
+  height: 50px;
+}
+
+a {
+  color: var(--main-text);
+  text-decoration: none;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.main-header a {
+  color: var(--header-text);
+}
+
+.main-header a:hover {
+  color: var(--header-text-highlight);
+}
+
+.main-header > * {
+  padding: 0 15px;
+}
+
+.main-header nav > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header nav ul > li {
+  list-style-type: none;
+}
+
+section {
+  padding: 25px;
+  border-top: 1px solid #eee;
+}
+
+section.start {
+  border-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 34pt;
+  text-align: center;
+  background-image: url(../assets/plants.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+section.start p {
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+section .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 -25px;
+}
+
+section .box h3 {
+  color: var(--main-text);
+  text-align: center;
+}
+
+section .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px -2px #000;
+}
+
+p {
+  color: var(--secondary-text);
+}
+
+section .box {
+  transition: all 0.1s ease-in-out;
+  background: var(--box-background);
+  box-shadow: 0 0 10px -2px #000;
+  width: 200px;
+  margin: 25px;
+  padding: 15px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: var(--footer-background);
+  color: var(--footer-text);
+  align-items: baseline;
+  padding: 15px;
+}
+
+footer a {
+  color: var(--footer-text-highlight);
+}
