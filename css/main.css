@@ -162,6 +162,11 @@ section .technologies .technologies-header {
   color: var(--box-header);
 }
 
+section .technologies .technologies-header li {
+	padding: 5px 0;
+}
+
+section .technologies .technologies-header li:hover,
 section .technologies .technologies-header li.active {
   color: var(--box-header);
 }
@@ -171,7 +176,8 @@ section .technologies .technologies-items ul > li {
 	padding: 5px 15px;
 }
 
-section .technologies .technologies-items ul > li:hover {
+section .technologies .technologies-items ul > li:hover,
+section .technologies .technologies-items ul > li.active {
 	color: var(--box-header);
 }
 
