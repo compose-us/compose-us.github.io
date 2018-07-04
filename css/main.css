@@ -7,7 +7,8 @@
   --main-color: #000;
   --main-text: #000;
   --secondary-text: #888;
-  --main-background: #fff;
+  --main-background: #f2f5f2;
+  --main-background-end: #fafcfa;
   --main-darker: #000;
   --secondary-main: #000;
   --header-background: #222;
@@ -17,6 +18,7 @@
   --footer-text: #888;
   --footer-text-highlight: #aaa;
   --box-background: #fcfcfc;
+  --box-header: var(--ci-primary-main);
 }
 
 html,
@@ -27,8 +29,8 @@ body {
 
 body {
   background: var(--main-background);
-  background-image: url(../assets/handmadepaper.png);
-  background-repeat: repeat;
+  /* background-image: url(../assets/handmadepaper.png);
+  background-repeat: repeat; */
   color: var(--main-text);
   font-family: "PT Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -80,6 +82,12 @@ a {
   padding: 0 15px;
 }
 
+@media (max-width: 500px) {
+	.main-header nav {
+		display: none;
+	}
+}
+
 .main-header nav > ul {
   margin: 0;
   padding: 0;
@@ -95,12 +103,11 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
-  border-top: 1px solid #eee;
+  padding: 75px 25px;
+	background: linear-gradient(180deg, var(--main-background), var(--main-background-end));
 }
 
 section.start {
-  border-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +118,7 @@ section.start {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 350px;
 }
 
 section.start p {
@@ -132,7 +139,7 @@ section .boxes {
 }
 
 section .box h3 {
-  color: var(--main-text);
+  color: var(--box-header);
   text-align: center;
 }
 
