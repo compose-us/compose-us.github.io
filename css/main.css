@@ -162,6 +162,10 @@ section .technologies .technologies-header {
   color: var(--box-header);
 }
 
+section .technologies .technologies-header li.active {
+  color: var(--box-header);
+}
+
 section .technologies .technologies-items ul > li {
 	float: left;
 	padding: 5px 15px;
