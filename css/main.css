@@ -197,3 +197,20 @@ footer {
 footer a {
   color: var(--footer-text-highlight);
 }
+
+.contactButton {
+  font-family: "PT Serif", "Garamond", "Serif";
+  font-size: x-large;
+  background: var(--ci-primary-main);
+  color: white;
+  box-shadow: 0 0 10px -2px #000;
+  padding: 8px;
+}
+.contactButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px -2px #000;
+}
+
+.small {
+  font-size: x-small;
+}
