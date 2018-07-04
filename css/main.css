@@ -7,16 +7,18 @@
   --main-color: #000;
   --main-text: #000;
   --secondary-text: #888;
-  --main-background: #fff;
+  --main-background: #f2f5f2;
+  --main-background-end: #fafcfa;
   --main-darker: #000;
   --secondary-main: #000;
-  --header-background: #222;
+  --header-background: 34, 34, 34;
   --header-text: #aaa;
   --header-text-highlight: #eee;
   --footer-background: #222;
   --footer-text: #888;
   --footer-text-highlight: #aaa;
   --box-background: #fcfcfc;
+  --box-header: var(--ci-primary-main);
 }
 
 html,
@@ -27,8 +29,8 @@ body {
 
 body {
   background: var(--main-background);
-  background-image: url(../assets/handmadepaper.png);
-  background-repeat: repeat;
+  /* background-image: url(../assets/handmadepaper.png);
+  background-repeat: repeat; */
   color: var(--main-text);
   font-family: "PT Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -51,7 +53,8 @@ h6 {
 }
 
 header {
-  background: var(--header-background);
+	position: absolute;
+  background: rgba(var(--header-background), .8);
   color: var(--header-text);
   height: 50px;
 }
@@ -80,27 +83,33 @@ a {
   padding: 0 15px;
 }
 
+@media (max-width: 500px) {
+	.main-header nav {
+		display: none;
+	}
+}
+
 .main-header nav > ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .main-header nav ul > li {
-  list-style-type: none;
+	list-style-type: none;
+	margin-right: 15px;
 }
 
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
-  border-top: 1px solid #eee;
+  padding: 75px 25px;
+	background: linear-gradient(180deg, var(--main-background), var(--main-background-end));
 }
 
 section.start {
-  border-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,8 +119,9 @@ section.start {
   background-image: url(../assets/plants.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 300px;
+	background-position: center;
+  height: 350px;
+	padding-top: 125px;
 }
 
 section.start p {
@@ -132,7 +142,7 @@ section .boxes {
 }
 
 section .box h3 {
-  color: var(--main-text);
+  color: var(--box-header);
   text-align: center;
 }
 
