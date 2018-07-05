@@ -272,6 +272,12 @@ section .box {
   padding: 15px;
 }
 
+section.contact .contact-ctas {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 footer {
 	display: flex;
   background: var(--footer-background);
