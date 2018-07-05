@@ -142,30 +142,32 @@ section .technologies .technologies-header ul {
 }
 
 section .technologies:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
   box-shadow: 0 0 20px -2px #000;
 }
 
 section .technologies {
-	transition: all 0.2s ease-in-out;
-	margin: 25px;
+  transition: all 0.2s ease-in-out;
+  margin: 25px;
   display: grid;
-	grid-template-columns: 220px 1fr;
-	background: var(--box-background);
-	padding: 25px;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "headers technologies";
+  background: var(--box-background);
+  padding: 25px;
   box-shadow: 0 0 5px -2px #000;
 }
 
 section .technologies .technologies-header {
-	text-align: right;
-	padding: 0 25px 0 0;
-	margin: 0 25px 0 0;
-	box-shadow: 3px 0 5px -4px #000;
+  text-align: right;
+  padding: 0 25px 0 0;
+  margin: 0 25px 0 0;
+  box-shadow: 4px 0 5px -5px #000;
   color: var(--box-header);
 }
 
 section .technologies .technologies-header li {
-	padding: 5px 0;
+  padding: 5px 0;
 }
 
 section .technologies .technologies-header li:hover,
@@ -173,14 +175,44 @@ section .technologies .technologies-header li.active {
   color: var(--box-header);
 }
 
+@media (max-width: 500px) {
+  section .technologies {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "headers"
+			"technologies";
+		font-size: smaller;
+  }
+  section .technologies .technologies-header {
+    padding: 0 0 15px;
+    margin: 0 0 25px;
+    text-align: center;
+    box-shadow: 0 4px 5px -5px #000;
+  }
+  section .technologies .technologies-header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section .technologies .technologies-header ul > li {
+    padding: 5px 15px;
+  }
+}
+
+section .technologies .technologies-items ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
 section .technologies .technologies-items ul > li {
-	float: left;
-	padding: 5px 15px;
+  padding: 5px 15px;
 }
 
 section .technologies .technologies-items ul > li:hover,
 section .technologies .technologies-items ul > li.active {
-	color: var(--box-header);
+  color: var(--box-header);
 }
 
 section .boxes {
@@ -249,11 +281,11 @@ footer a {
 
 .cta,
 .cta:hover {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
 }
 
 .cta .cta-button {
