@@ -171,8 +171,16 @@ section .technologies .technologies-header li {
   padding: 5px 0;
 }
 
+section .technologies:hover .technologies-header li,
+section .technologies:hover .technologies-items li {
+	opacity: 0.5;
+}
+
 section .technologies .technologies-header li:hover,
-section .technologies .technologies-header li.active {
+section .technologies .technologies-header li.active,
+section .technologies .technologies-items ul > li:hover,
+section .technologies .technologies-items ul > li.active {
+	opacity: 1;
   color: var(--box-header);
 }
 
@@ -214,11 +222,6 @@ section .technologies .technologies-items ul {
 
 section .technologies .technologies-items ul > li {
   padding: 5px 15px;
-}
-
-section .technologies .technologies-items ul > li:hover,
-section .technologies .technologies-items ul > li.active {
-  color: var(--box-header);
 }
 
 section .boxes {
