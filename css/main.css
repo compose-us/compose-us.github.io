@@ -155,8 +155,8 @@ section .technologies {
   grid-template-areas: "headers technologies";
   background: var(--box-background);
   padding: 25px;
-	box-shadow: 0 0 5px -2px #000;
-	max-width: 1000px;
+  box-shadow: 0 0 5px -2px #000;
+  max-width: 1000px;
 }
 
 section .technologies .technologies-header {
@@ -182,8 +182,8 @@ section .technologies .technologies-header li.active {
     grid-template-rows: 1fr;
     grid-template-areas:
       "headers"
-			"technologies";
-		font-size: smaller;
+      "technologies";
+    font-size: smaller;
   }
   section .technologies .technologies-header {
     padding: 0 0 15px;
@@ -202,14 +202,14 @@ section .technologies .technologies-header li.active {
 }
 
 section .technologies .technologies-items {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 section .technologies .technologies-items ul {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 -15px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px 0 0;
 }
 
 section .technologies .technologies-items ul > li {
@@ -273,11 +273,12 @@ section .box {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
   background: var(--footer-background);
   color: var(--footer-text);
-  align-items: baseline;
+	align-items: baseline;
+	justify-content: center;
+	text-align: center;
   padding: 15px;
 }
 

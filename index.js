@@ -1,5 +1,10 @@
+const $randomFooter = document.getElementById("random-footer");
 const technologyHeaders = Array.from(document.querySelectorAll(".technologies-header li"));
 const technologyItems = Array.from(document.querySelectorAll(".technologies-items li"));
+
+$randomFooter.addEventListener("pointerenter", generateRandomText);
+$randomFooter.addEventListener("pointerup", generateRandomText);
+
 technologyItems.forEach($item => {
   $item.addEventListener("pointerenter", enableTechItem);
   $item.addEventListener("pointerleave", disableTechItem);
@@ -8,6 +13,18 @@ technologyHeaders.forEach($header => {
   $header.addEventListener("pointerenter", enableTechHeader);
   $header.addEventListener("pointerleave", disableTechHeader);
 });
+generateRandomText();
+
+function generateRandomText() {
+  const adjs = ["a few", "cool", "creative", "funny", "great", "loving", "nice", "real", "total", "understanding"];
+  const subs = ["coders", "developers", "digital nomads", "geeks", "humans", "kids", "learners", "monkeys", "nerds", "optimists"];
+  const cities = ["Bavaria", "Germany", "Europe", "Landshut", "Passau", "around the world"];
+  $randomFooter.innerText = `· created by ${randomOf(adjs)} ${randomOf(subs)} from ${randomOf(cities)} ·`;
+
+  function randomOf(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+}
 
 function disableTechItem() {
   technologyHeaders.forEach(header => header.classList.remove("active"));
