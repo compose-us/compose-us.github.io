@@ -29,8 +29,6 @@ body {
 
 body {
   background: var(--main-background);
-  /* background-image: url(../assets/handmadepaper.png);
-  background-repeat: repeat; */
   color: var(--main-text);
   font-family: "PT Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -53,8 +51,8 @@ h6 {
 }
 
 header {
-	position: absolute;
-  background: rgba(var(--header-background), .8);
+  position: absolute;
+  background: rgba(var(--header-background), 0.8);
   color: var(--header-text);
   height: 50px;
 }
@@ -84,9 +82,9 @@ a {
 }
 
 @media (max-width: 500px) {
-	.main-header nav {
-		display: none;
-	}
+  .main-header nav {
+    display: none;
+  }
 }
 
 .main-header nav > ul {
@@ -97,8 +95,8 @@ a {
 }
 
 .main-header nav ul > li {
-	list-style-type: none;
-	margin-right: 15px;
+  list-style-type: none;
+  margin-right: 15px;
 }
 
 section {
@@ -106,7 +104,7 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 75px 25px;
-	background: linear-gradient(180deg, var(--main-background), var(--main-background-end));
+  background: linear-gradient(180deg, var(--main-background), var(--main-background-end));
 }
 
 section.start {
@@ -119,9 +117,9 @@ section.start {
   background-image: url(../assets/plants.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-	background-position: center;
+  background-position: center;
   height: 350px;
-	padding-top: 125px;
+  padding-top: 125px;
 }
 
 section.start p {
@@ -132,6 +130,55 @@ section.start p {
 section h3,
 section p {
   max-width: 500px;
+}
+
+section .technologies .technologies-items ul,
+section .technologies .technologies-header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+section .technologies:hover {
+	transform: scale(1.1);
+  box-shadow: 0 0 20px -2px #000;
+}
+
+section .technologies {
+	transition: all 0.2s ease-in-out;
+	margin: 25px;
+  display: grid;
+	grid-template-columns: 220px 1fr;
+	background: var(--box-background);
+	padding: 25px;
+  box-shadow: 0 0 5px -2px #000;
+}
+
+section .technologies .technologies-header {
+	text-align: right;
+	padding: 0 25px 0 0;
+	margin: 0 25px 0 0;
+	box-shadow: 3px 0 5px -4px #000;
+  color: var(--box-header);
+}
+
+section .technologies .technologies-header li {
+	padding: 5px 0;
+}
+
+section .technologies .technologies-header li:hover,
+section .technologies .technologies-header li.active {
+  color: var(--box-header);
+}
+
+section .technologies .technologies-items ul > li {
+	float: left;
+	padding: 5px 15px;
+}
+
+section .technologies .technologies-items ul > li:hover,
+section .technologies .technologies-items ul > li.active {
+	color: var(--box-header);
 }
 
 section .boxes {
@@ -157,8 +204,8 @@ section .box ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-	justify-content: center;
-	text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
 section .box ul > li::before {
@@ -179,7 +226,7 @@ section li {
 section .box {
   transition: all 0.1s ease-in-out;
   background: var(--box-background);
-  box-shadow: inset 0 0 10px -2px #000;
+  box-shadow: 0 0 3px -1px #000;
   width: 200px;
   margin: 25px;
   padding: 15px;
