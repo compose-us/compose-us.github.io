@@ -201,10 +201,15 @@ section .technologies .technologies-header li.active {
   }
 }
 
+section .technologies .technologies-items {
+	display: flex;
+	justify-content: flex-end;
+}
+
 section .technologies .technologies-items ul {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -15px;
+	margin: 0 -15px 0 0;
 }
 
 section .technologies .technologies-items ul > li {
