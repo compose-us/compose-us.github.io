@@ -16,8 +16,8 @@ technologyHeaders.forEach($header => {
 generateRandomText();
 
 function generateRandomText() {
-  const adjs = ["a few", "cool", "creative", "funny", "great", "loving", "nice", "real", "total", "understanding"];
-  const subs = ["coders", "developers", "digital nomads", "geeks", "humans", "kids", "learners", "monkeys", "nerds", "optimists"];
+  const adjs = ["a few", "cool", "creative", "funny", "great", "helpful", "interesting", "loving", "multiple", "nice", "real", "total", "understanding"];
+  const subs = ["coders", "developers", "digital nomads", "geeks", "humans", "kids", "learners", "monkeys", "nerds", "optimists", "programmers"];
   const cities = ["Bavaria", "Germany", "Europe", "Landshut", "Passau", "around the world"];
   $randomFooter.innerText = `· created by ${randomOf(adjs)} ${randomOf(subs)} from ${randomOf(cities)} ·`;
 
