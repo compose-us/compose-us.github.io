@@ -319,6 +319,14 @@ footer a {
   box-shadow: 0 0 20px -2px #000;
 }
 
+.partner {
+  display: flex;
+}
+
+.partner-item {
+  margin: 20px;
+}
+
 .small {
   font-size: x-small;
 }
