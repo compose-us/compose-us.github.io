@@ -18,7 +18,7 @@ module.exports={root:"_root_w1ghf_1"};
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"Box",{enumerable:!0,get:function(){return e.default}}),Object.defineProperty(exports,"BoxHeader",{enumerable:!0,get:function(){return r.BoxHeader}});var e=t(require("./box.js")),r=require("./box-header");function t(e){return e&&e.__esModule?e:{default:e}}
 },{"./box.js":"fFQ4","./box-header":"YrMD"}],"Uugj":[function(require,module,exports) {
 module.exports={root:"_root_1nepg_1",boxes:"_boxes_1nepg_6",buttons:"_buttons_1nepg_16",headerImage:"_headerImage_1nepg_23",spacingAbove:"_spacingAbove_1nepg_39"};
-},{"./../../assets/images/tom-ezzatkhah-223453-unsplash.jpg":[["tom-ezzatkhah-223453-unsplash.408da68f.jpg","eItM"],"eItM"]}],"tOt1":[function(require,module,exports) {
+},{"./../../assets/images/tom-ezzatkhah-223453-unsplash.jpg":[["tom-ezzatkhah-223453-unsplash.65c127bd.jpg","eItM"],"eItM"]}],"tOt1":[function(require,module,exports) {
 module.exports={root:"_root_9g1ra_1",technologiesHeader:"_technologiesHeader_9g1ra_23",technologiesHeading:"_technologiesHeading_9g1ra_30",technologiesItems:"_technologiesItems_9g1ra_37"};
 },{}],"BWvK":[function(require,module,exports) {
 module.exports={root:"_root_1yyy0_1",active:"_active_1yyy0_6"};
@@ -37,11 +37,11 @@ module.exports={root:"_root_ctjv5_1",logo:"_logo_ctjv5_5"};
 },{"./partner.js":"kgUN"}],"9D4V":[function(require,module,exports) {
 module.exports={root:"_root_40nkb_1"};
 },{}],"9AmH":[function(require,module,exports) {
-module.exports="/gdn_logo.9bb2d706.png";
+module.exports="/gdn_logo.f61ed06a.png";
 },{}],"UxKP":[function(require,module,exports) {
-module.exports="/innkubator_logo.e74c0e70.png";
+module.exports="/innkubator_logo.556382eb.png";
 },{}],"hiiH":[function(require,module,exports) {
-module.exports="/yc_sus.b47940d9.png";
+module.exports="/yc_sus.c91f838b.png";
 },{}],"NA46":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=i(require("react")),r=i(require("prop-types")),a=i(require("classnames")),t=require("./partner"),n=i(require("./partner-grid.scss")),s=i(require("../../assets/images/partners/gdn_logo.png")),l=i(require("../../assets/images/partners/innkubator_logo.png")),u=i(require("../../assets/images/partners/yc_sus.png"));function i(e){return e&&e.__esModule?e:{default:e}}var o=[{link:"https://www.gruenderzentrum-digitalisierung-niederbayern.de/",logo:s.default,name:"Gründerzentrum Digitalisierung Niederbayern"},{link:"https://www.innkubator.de/",logo:l.default,name:"INN.Kubator"},{link:"https://www.startupschool.org/companies/vki-fHGba2Z5rA",logo:u.default,name:"YC StartupSchool"}],d=function(r){var s=r.className;return e.default.createElement("div",{className:(0,a.default)(n.default.root,s)},o.map(function(r,a){var n=r.link,s=r.logo,l=r.name;return e.default.createElement(t.Partner,{key:a,link:n,logo:s,name:l})}))};d.displayName="PartnerGrid",d.propTypes={children:r.default.node,className:r.default.string},d.defaultProps={children:null,className:null};var p=d;exports.default=p;
 },{"react":"ccIB","prop-types":"3/B0","classnames":"kpqe","./partner":"Qq/D","./partner-grid.scss":"9D4V","../../assets/images/partners/gdn_logo.png":"9AmH","../../assets/images/partners/innkubator_logo.png":"UxKP","../../assets/images/partners/yc_sus.png":"hiiH"}],"EOD9":[function(require,module,exports) {
