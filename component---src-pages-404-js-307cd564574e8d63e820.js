@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{303:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),c=n(298),i=n(297),l=n(85),u=n(300);t.default=function(){return r.a.createElement(c.a,null,r.a.createElement(u.a,{id:"case-studies"},r.a.createElement(i.a,{title:"404: Not found"}),r.a.createElement("h1",null,"NICHT GEFUNDEN"),r.a.createElement("p",null,"Sie haben gerade eine Route getroffen, die es nicht gibt. Zurück zum"," ",r.a.createElement(l.Link,{to:"/"},"Start"))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-307cd564574e8d63e820.js.map
