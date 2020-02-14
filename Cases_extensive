@@ -1,0 +1,145 @@
+# Multinational Marketing Technology Provider
+## Project Type
+* Calculate product margins and set up profit * tracking to evaluate search engine 
+* advertising efficiency 
+## Technologies used
+* Ruby on Rails
+* Google AdWords API
+* Postgresql
+* ElasticSearch
+* Go
+## User Groups
+* Online Marketing departments of pure E-commerce and Omnichannel retailers
+* Controlling
+* Buying Department
+## Problems
+* A lot of guesswork in Online Marketing efficiency
+* No data driven decision making possible
+## Status before
+Distribution of budget based on gut feeling and search engine advertising prices 
+## Solution 
+Transparent KPI stating which keywords earn the retailer money and which don’t
+## KPI: Customer Lifetime Value
+## Project Duration: 12months+
+## Specs
+1. Tracking the efficiency of search engine advertising is one of the toughest things to measure. 
+2. Our experience in evaluating key performance indicators from online marketing strategies comes from building custom tailored solutions which eliminate the guesswork of the keywords that are used. 
+3. This data driven process empowers our customers to make decisions based not only on the product margins, but also tracks the performance and efficiency of the keywords they utilize. 
+
+# Multichannel Retailer
+## Project Type
+* Digitize product data: Create excel-like product with linked outputs
+* Customize infrastructure to enable multichannel approach
+## Technologies used
+* NodeJS
+* Scala
+* Vert.x
+* PostgreSQL
+## User Groups
+Controlling, Buying, Marketing and Sales departments
+## Problems
+* Employees are busy with hunting down uptodate prices
+* Lack of data quality/integrity 
+* No single source of truth to improve decision making
+## Status before
+* Manual alterations of data in different data silos 
+* Fragmented database due to silos and several data formats
+## Solution
+* Unified database
+* Data is synchronized by the push of a button
+## KPI: Revenue
+## Project Duration: 12 months, ongoing
+## Specs
+1. Having a large number of product SKUs presents it’s own challenges. 
+2. Informing your customers shouldn’t have to be one of them. 
+3. Add the complexity of having multiple markets to manage, and your product details will begin to lose their integrity. 
+4. When there is no single source of truth, costly mistakes can be made. 
+5. One of our solutions was to be able to provide an excel-like product management system. Performance as well as data quality is important to maintain. These tools will prevent your workforce from making mistakes when it comes to online retailing and print catalogues. Data synchronization is key to be able to push the right information to the variety of departments that need them. 
+# Multinational OEM
+## Project Type
+* Modernize internal legacy tools’ usability
+* Streamline tool set
+## Technologies used
+* Ruby on Rails
+* React
+* MySQL
+## User Groups
+Cross department utilization  
+## Problems
+* Low process efficiency
+* Limited data processing capabilities
+## Status before
+* Manual manipulation of data in several data silos 
+* Slow and incoherent way of manipulating data
+## Status After 
+Faster and coherent overview of data and processes
+## KPI: Internal efficiency KPI
+## Project Duration: 12 months
+## Specs
+1. Part of the success of this multinational customer have been the legacy tools in which they have relied on. 
+2. Unfortunately the efficiency of those tools were unable to keep up with modern methodologies. 
+3. When we started the process of streamlining those tools, a good understanding of both the starting point and end goal were crucial. 
+4. In order to properly increase the efficiency of our customer’s process a phase plan needed to be in place, one which did not interrupt the current operations of the business. 
+5. Rolling out such changes took coordination with various departments. 
+6. Our custom tailored tools now deliver a faster and more coherent overview of the data and processes.
+
+# Audio Streaming Start-up /  Audio Product Publisher
+## Project Type
+* Prepare for scaling a pure e-business: Create infrastructure for core business (audio production and accounting platform) and automation
+## Technologies used
+* Ruby on Rails
+* React
+* Postgres
+## User Groups
+* Management team
+* Audio producers
+* Readers, editors, audio engineers
+## Problems
+* Deficit in employee efficiency
+* Data quality. Unsynchronized data sources
+* Limiting scale of audio production
+## Status before
+* Manual copying of audio data in different folders
+* manually keeping track of production status
+* no single source of truth
+* Data is spread across different documents and platforms (trello, google doc, nextcloud, …)
+## Solution 
+* One platform as single source of truth
+* Eliminate user mistakes by enforcing conventions
+* Laid foundation for scale: automated quality control ( audio processing, speech-to-text, … ) 
+## KPI: Revenue
+## Project Duration: 8 months
+## Specs
+1. With the growing popularity of digital audio products, media publishers have had to update their processes. 
+2. For one of our customers that also included two of their core business functions, audio production and accounting. We developed the automation procedures that connected the new digital tools which we created for them. 
+3. Enabling a business which lacked the employee proficiency for automation also allowed them to scale their audio production. 4. The newly developed platform ensures quality control between digital products and digital distributors, laying the foundation for expanding their capabilities, including audio processing which can lead to speech-to-text creation without having to adopt an additional tool.
+
+# Digital Newspaper
+Multinational Airline Operator 
+# Smart Hotel
+## Project Type
+* Build Content Management System
+* Establish hotel room automation
+* Set up web server / Infrastructure 
+## Technologies used
+* Node JS
+* React
+## User Groups
+* Premium hotel operator
+* Hotel guests
+## Problems
+* No Content Management System to let hotel operator customize their Ipad interfaces for their hotel guests existed
+* Hotel guest 1 could control hotel guest 2’s room. Shielding 
+## Status before
+No smart room functionalities
+## Solution
+* Hotel guest 1 can manage his/her own room via the room’s Ipad
+* Built web server to prevent hotel guest 1 to control hotel guest 2’s room
+## KPI: Revenue
+## Project Duration: 3 months
+## Specs
+1. Modernizing the core business functions sometimes means enhancing the experience of the customer. 
+2. The automation of hotel rooms has a direct effect on the way the business is run. 
+3. When a digital management system is missing, building the correct infrastructure is key  to making the transition. 
+4. The challenge for us was to be able to isolate the room’s control devices, in this case a smart device which interacts with the built in web server for the customer management system. 
+5. These features are a prerequisite to provide a unique experience for each individual guest.
