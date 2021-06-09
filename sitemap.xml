@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://compose.us/kommunen-digitalisierung</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://compose.us/blog/06/09/2021/wie-konnte-hilfreiche-digitalisierung-bei-der-offentlichen-hand-aussehen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://compose.us/blog/05/12/2021/die-landshuter-zeitung-schreibt-uber-compoe-us</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://compose.us/blog/04/06/2021/welche-digitalisierungsarbeit-fallt-bei-kommunen-eigentlich-an</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://compose.us/blog/03/26/2021/unser-kommunaler-schadensmelder-was-haben-wir-aus-dem-beta-test-gelernt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
